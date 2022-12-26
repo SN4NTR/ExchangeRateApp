@@ -30,7 +30,7 @@ ng serve
 2. Converter page:
 <img width="624" alt="image" src="https://user-images.githubusercontent.com/49494582/209559886-997cf069-c503-4909-bdb1-e04bfb14ffc0.png">
 3. Conversion result:
-<img width="623" alt="image" src="https://user-images.githubusercontent.com/49494582/209559965-04d7fd0c-d676-4371-b6f2-f53d99a4aab0.png">
+<img width="590" alt="image" src="https://user-images.githubusercontent.com/49494582/209561602-8096c840-0690-4da6-89b8-fd54f21eec70.png">
 4. Conversions history page:
 <img width="747" alt="image" src="https://user-images.githubusercontent.com/49494582/209560094-0730c27a-b332-4be4-a68b-61c92cbd150b.png">
 
