@@ -1,0 +1,73 @@
+.currency-select {
+  width: 11em;
+}
+
+#conversion-value {
+  font-size: 20px;
+}
+
+#history-container {
+  margin-top: 30px;
+}
+
+#conversion-amount-label {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+#conversion-amount {
+  width: 200px;
+  margin: 0 auto 0;
+}
+
+#conversion-history-button {
+  margin-top: 40px;
+  margin-bottom: 0;
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: rgba(111, 91, 129, 0.59);
+}
+
+#convert-button {
+  margin-top: 1em;
+  width: 120px;
+  font-size: 13px;
+  background-color: #4c4183;
+  border: #4c4183;
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+}
+
+#from-currency {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#to-currency {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#from-currency-label {
+  margin-bottom: 5px;
+}
+
+#to-currency-label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#bg-dark {
+  height: 200px;
+  width: 50%;
+}
+
+.card-body, .bg-dark {
+  height: 500px;
+  width: 400px;
+  margin: 0 auto;
+}
+

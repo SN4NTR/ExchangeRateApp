@@ -1,0 +1,47 @@
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+            <div class="converter-main-container">
+
+              <form [formGroup]="exchangeRateForm" (ngSubmit)="onConvert()">
+                <label id="conversion-amount-label" for="conversion-amount">Enter amount to convert:</label><br>
+                <input id="conversion-amount" class="form-control" type="number" required min="0" placeholder="0.000"
+                       step=".001"
+                       formControlName="amount"><br>
+
+                <label id="from-currency-label" class="control-label" for="from-currency">From:</label>
+                <select id="from-currency" class="form-select currency-select" formControlName="fromCurrency">
+                  <option [value]="null" disabled>Select currency</option>
+                  <option *ngFor="let exchangeRate of exchangeRates"
+                          [value]="exchangeRate.currency">{{exchangeRate.currency}}</option>
+                </select>
+
+                <label id="to-currency-label" for="to-currency">To:</label>
+                <select id="to-currency" class="form-select currency-select" formControlName="toCurrency">
+                  <option [value]="null" disabled>Select currency</option>
+                  <option *ngFor="let exchangeRate of exchangeRates"
+                          [value]="exchangeRate.currency">{{exchangeRate.currency}}</option>
+                </select><br>
+
+                <div class="result-container" *ngIf="conversionValue != 0">
+                  <p id="conversion-value">{{conversionValue}}</p>
+                </div>
+
+                <button id="convert-button" class="btn btn-primary" type="submit">Convert</button>
+                <br>
+
+                <button id="conversion-history-button" (click)="goToEndpoint('conversions-history')">
+                  Conversions history
+                </button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+table, th, td {
+  border: 1px solid;
+  border-color: #4c4183;
+}
+
+.card-body {
+  width: 700px;
+}
+
+.bg-dark {
+  width: 610px;
+}
+
+table {
+  color: #d9c6c6;
+}
