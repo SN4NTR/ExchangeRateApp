@@ -1,4 +1,4 @@
-## Exchange Rate Application
+## Exchange Rate UI
 
 UI Representation of Exchange Rate application.
 
