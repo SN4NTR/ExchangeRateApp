@@ -27,7 +27,7 @@
                 </select><br>
 
                 <div class="result-container" *ngIf="conversionValue != 0">
-                  <p id="conversion-value">{{conversionValue}}</p>
+                  <p id="conversion-value">{{(conversionValue).toFixed(3)}}</p>
                 </div>
 
                 <button id="convert-button" class="btn btn-primary" type="submit">Convert</button>
